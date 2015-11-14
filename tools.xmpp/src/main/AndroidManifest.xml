@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.tasp.tools.xmpp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <meta-data
+            android:name="ru.tasp.tools.xmpp.accounts.provider"
+            android:value="ru.tasp.tools.xmpp.accounts.providers.preference.PreferenceProvider" />
+        <!--<meta-data-->
+            <!--android:name="ru.tasp.tools.xmpp.receivers"-->
+            <!--android:value="ru.tasp.tools.xmpp.receivers.DefaultXmppMessageReceiver" />-->
+
+        <receiver
+            android:name=".XmppBootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".XmppService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

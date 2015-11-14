@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tools.iml" filepath="$PROJECT_DIR$/Tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools.bus/tools.bus.iml" filepath="$PROJECT_DIR$/tools.bus/tools.bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools.configuration/tools.configuration.iml" filepath="$PROJECT_DIR$/tools.configuration/tools.configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools.logger/tools.logger.iml" filepath="$PROJECT_DIR$/tools.logger/tools.logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools.network/tools.network.iml" filepath="$PROJECT_DIR$/tools.network/tools.network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools.xmpp/tools.xmpp.iml" filepath="$PROJECT_DIR$/tools.xmpp/tools.xmpp.iml" />
+    </modules>
+  </component>
+</project>

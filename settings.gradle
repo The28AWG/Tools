@@ -1,0 +1,1 @@
+include ':app', ':tools.xmpp', ':tools.network', ':tools.logger', ':tools', ':tools.configuration', ':tools.bus'
